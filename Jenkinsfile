@@ -15,7 +15,7 @@ pipeline {
         NEXUS_PASS = '123'
         RELEASE_REPO = 'vprofile-release'
         CENTRAL_REPO = 'vpro-maven-central'
-        NEXUSIP = '172.31.30.58'
+        NEXUSIP = '172.31.25.124'
         NEXUSPORT = '8081'
         NEXUS_GRP_REPO = 'vpro-maven-group'
         NEXUS_LOGIN = 'nexuslogin'
