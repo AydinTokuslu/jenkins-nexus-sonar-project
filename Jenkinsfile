@@ -100,7 +100,7 @@ pipeline {
         }
 
     }
-
+  
     stage('Ansible Deploy to staging'){
             steps {
                 ansiblePlaybook([
