@@ -28,9 +28,8 @@ pipeline {
                     ])
                 }
             }
-		}
-
-        stage('Ansible Deploy to Prod'){
+		}  
+      stage('Ansible Deploy to Prod'){
             steps {
                 ansiblePlaybook([
                 inventory   : 'ansible/prod.inventory',
