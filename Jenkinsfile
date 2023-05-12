@@ -98,7 +98,6 @@ pipeline {
                 )
             }
         }
-
     }
   
     stage('Ansible Deploy to staging'){
