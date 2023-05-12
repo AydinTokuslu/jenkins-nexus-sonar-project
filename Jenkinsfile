@@ -99,7 +99,7 @@ pipeline {
             }
         }
 
-    }
+    
   
     stage('Ansible Deploy to staging'){
             steps {
@@ -126,6 +126,7 @@ pipeline {
         }
 
     }
+}
 
     post {
         always {
